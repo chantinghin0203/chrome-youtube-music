@@ -1,0 +1,27 @@
+{
+  "name": "YouTube Music Lyrics",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions":["https://www.google.com/search", "https://mojim.com/"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/pictures/icon.png",
+      "32": "/pictures/icon.png",
+      "48": "/pictures/icon.png",
+      "128": "/pictures/icon.png"
+    }
+  },
+  "icons": {
+    "16": "/pictures/icon.png",
+    "32": "/pictures/icon.png",
+    "48": "/pictures/icon.png",
+    "128": "/pictures/icon.png"
+  }
+}
